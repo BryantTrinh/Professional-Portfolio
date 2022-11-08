@@ -6,9 +6,9 @@
 /* color */
 
 :root {
-  --primary: teal;
-  --seconday: green; 
-  --tertiary: salmon;
+  --primary: #FA8072;
+  --seconday:  #008080;
+  --tertiary: #3eb489;
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
@@ -18,7 +18,7 @@ body {
   padding: 0;
   font-family:'Times New Roman', 'Times', 'serif';
   color: var(--primary);
-  background-color: var(--secondary);
+  background-color: var(--light);
   line-height: 1;
 }
 
@@ -38,18 +38,16 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 40px green;
+  box-shadow: 0 5px 40px #3eb489;
 }
 
 header h1 {
   color: var(--tertiary);
   background-color: var(--secondary);
-  padding: 5px 2% 5px 5%;
+  padding: 5px 2% 5px 6%;
   margin: 0;
-  font-size: 4em;
+  font-size: 4vw;
   line-height: 1;
-
-
 }
 
 nav {
@@ -60,6 +58,7 @@ nav {
 }
 
 nav a {
+  text-decoration: none;
   padding: 5px 10px;
   color: var(--secondary);
   margin-right: 10px;
@@ -102,8 +101,7 @@ main {
 }
 
 .hero-banner div {
-  flex: 0 auto;
-
+  flex: 0 0 90%;
 }
 
 .hero-banner h2{
@@ -131,6 +129,23 @@ main {
   align-items: stretch;
   justify-content: space-between;
 
+}
+
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.5;
+}
+
+.page-section > div {
+  flex: 0 0 65%;
+}
+
+.page-section p {
+  margin-bottom: 20px;
 }
 
 .flex-container {
