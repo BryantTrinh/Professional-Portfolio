@@ -141,7 +141,7 @@ main {
 }
 
 .page-section > div {
-  flex: 0 0 65%;
+  flex: 0 0 75%;
 }
 
 .page-section p {
@@ -149,10 +149,12 @@ main {
 }
 
 .flex-container {
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* added flex basis tp set initial main size, added softlight for hover */
 
 .flex-item {
   border: 5px solid var(--secondary);
@@ -160,11 +162,13 @@ main {
   color: var(--tertiary);
   min-height: 150px;
   max-height: 150px;
+  flex-basis: calc(75%);
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
+  background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
@@ -177,7 +181,7 @@ main {
 }
 
 .flex-item:hover {
-  background-color: black;
+  background-color: rgb(64, 9, 15);
 }
 
 .flex-item div {
@@ -214,7 +218,7 @@ main {
 
 .contact address a:hover {
   background-size: 100% 85%;
-  color: var(--tertiary);
+  color: var(--secondary);
 }
 
 /* End of contact */
@@ -245,7 +249,7 @@ main {
 
 /* media queries for header and page-sections */
 
-@media only screen and (min-width: 980px) { 
+@media screen and (max-width: 980px) {
   header {
     padding: 0 0 10px 0;
     justify-content: center;
@@ -273,7 +277,7 @@ main {
 
   .page-section > h2 {
     border-right: none;
-    border-bottom: 5px saolid var(--primary);
+    border-bottom: 5px solid var(--primary);
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: left;
@@ -282,3 +286,4 @@ main {
 }
 
 /* media queries for flex item's */
+
