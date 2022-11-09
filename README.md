@@ -24,7 +24,7 @@ What did you learn?
 '''
 
 ## License
-- MIT License.contact
+- MIT License
 
 ## Features
 - HTML that incorporates flexbox, CSS grid, media queries for non-desktop users, and hover effects.
