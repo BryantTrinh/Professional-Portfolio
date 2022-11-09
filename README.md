@@ -1,31 +1,36 @@
-User Story:
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+# Project Title: Professional Web Development Portfolio Template
 
-Acceptance Criteria:
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport.
+## Description
 
+What was your motivation?
+- My motivation in building this portfolio was to be able to present my web developements to employers.
 
-How to Complete the Challenge
-Follow these steps to complete the challenge:
+Why did you build this project?
 
-Use the Acceptance Criteria as a guide for how you'll plan deadlines, sketch, and code your portfolio.
+- I built this this project in order to store all my important projects, in an easily navigateable website, to present to future employers.
 
-Ensure that your work meets the Acceptance Criteria and the full list of grading requirements.
+What problem does it solve?
+- This portfolio template solves the issue of not having a personal space to hold projects. With this portfolio template, we are able to add 5 projects, a way to contact us, and being able to add social media websites
 
-Reach out to your instructional support team throughout the module for help.
+What did you learn?
+- In creating this portfolio, I was able to grasp the concepts of CSS grid, flexbox, and media queries. Using all of these techniques, I was able to make a portfolio that works on mobile devices and provides a clean visual interface for employers.
 
-Follow submission instructions.
+## Usage
+'''md
+![portfolio-header](assets/images/portfolio-header.png)
+![portfolio-about-me](assets/images/portfolio-about-me.png)
+![portfolio-work-projects](assets/images/portfolio-work-projects.png)
+![portfolio-footer](assets/images/portfolio-footer.png)
+'''
+
+## License
+- MIT License.contact
+
+## Features
+- HTML that incorporates flexbox, CSS grid, media queries for non-desktop users, and hover effects.
+
+## Tests
+1. Open the index.html file in a live server. 
+2. Navigation bar at the top is clickable but have placeholders that will later be filled out.
+3. You are able to hover your cursor over each image, under the header: "Work", where the image will darken as you hover of it.
+4. Under the "Contact Me" footer section, you are able to click on the phone number, the website address, Github, Twitter, and Spotify. They all have placeholders and will be filled out later on.
