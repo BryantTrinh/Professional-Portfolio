@@ -1,4 +1,4 @@
-# Project Title: Professional Web Development Portfolio Template
+# Professional Web Development Portfolio Template
 
 ## Description
 
@@ -22,9 +22,6 @@ What did you learn?
 ![portfolio-work-projects](assets/images/portfolio-work-projects.png)
 ![portfolio-footer](assets/images/portfolio-footer.png)
 '''
-
-## License
-- MIT License
 
 ## Features
 - HTML that incorporates flexbox, CSS grid, media queries for non-desktop users, and hover effects.
