@@ -252,7 +252,7 @@ p:hover{
 /*this is for portfolio images */
 
 .anime-website {
-  background-image: url("../images/anime-project.png");
+  background-image: url("../images/anime-ecommerce.png");
 }
 
 .work-calendar {
@@ -271,11 +271,6 @@ p:hover{
 .password-generator {
   background-image: url("../images/password-generator.png");
 }
-
-.run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
-}
-
 
 
 /* end of portfolio images */
